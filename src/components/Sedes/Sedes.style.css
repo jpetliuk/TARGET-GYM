@@ -14,29 +14,125 @@
   color: silver;
 }
 
-.sedesBlocks {
+.sedesBlocksContainer {
+  width: 95%;
+  margin: auto;
   display: flex;
   flex-wrap: wrap;
   align-content: center;
-  justify-content: center;
+  justify-content: space-around;
 }
 
-.sedesBlocks div {
-  background-image: url("https://static.wixstatic.com/media/65c589_98ff31452d6f4176a35ca2f54e59276a~mv2.jpg/v1/fill/w_607,h_398,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/DSC_5873_JPG.jpg");
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-color: lightgray;
-  border-radius: 5px;
+.sedeBlock {
   width: 350px;
   height: 350px;
   margin: 25px;
-  transition: 200ms;
+  position: relative;
+  transition: 400ms;
 }
 
-.sedesBlocks div:hover {
-  box-shadow: inset 0 0 0 1000px rgba(9, 8, 13, 0.5);
-}
-
-.sedesBlocks div img {
+.sedeStylesheet {
   width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  background-color: lightgray;
+  background-repeat: no-repeat;
+  background-size: contain;
+  transition: 300ms;
+}
+
+.sedeBlock:hover .sedeStylesheet {
+  filter: blur(2px);
+  -webkit-filter: blur(2px);
+  opacity: 50%;
+  box-shadow: 5px 10px #888888;
+  border-radius: 0;
+}
+
+.sedesHover {
+  width: 350px;
+  height: 350px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  opacity: 0%;
+  background-color: #fedf2dd7;
+  transition: 300ms ease-in-out;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}
+
+.sedesHover:hover {
+  opacity: 100%;
+  box-shadow: 6px 10px 4px 0 #888888;
+  scale: 1.015;
+}
+
+.sedesHover h2 {
+  margin: 0;
+}
+
+.sedesHover p {
+  font-size: 18px;
+  margin: 0 auto 50px auto;
+}
+
+.sedesHover button {
+  background-color: transparent;
+  border: solid 2px black;
+  border-radius: 4px;
+  padding: 10px 40px;
+  color: black;
+  font-family: "Montserrat", sans-serif;
+  font-size: 11px;
+  font-weight: 700;
+  transition: 200ms ease-in-out;
+  cursor: pointer;
+}
+
+.sedesHover button:hover {
+  background-color: black;
+  color: white;
+}
+
+.sedesMediaLinks {
+  width: 100%;
+  bottom: 0;
+}
+
+.sedesMediaLinks a {
+  margin: 15px;
+}
+
+.sedesMediaLinks img {
+  margin-top: 20px;
+  width: 26px;
+}
+
+#sedeFlorida {
+  background-image: url("https://static.wixstatic.com/media/65c589_98ff31452d6f4176a35ca2f54e59276a~mv2.jpg/v1/fill/w_607,h_398,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/DSC_5873_JPG.jpg");
+}
+
+#sedeMaipu {
+  background-image: url("https://static.wixstatic.com/media/65c589_db60655201fb44028f2455b2b6cd3fda~mv2.jpeg/v1/crop/x_0,y_14,w_718,h_479/fill/w_607,h_398,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/WhatsApp%20Image%202022-08-11%20at%2010_32_07%20AM.jpeg");
+}
+
+#sedeNunez {
+  background-image: url("https://static.wixstatic.com/media/65c589_3c320ab4b2f948a9bf788a0d68e852d9~mv2.jpg/v1/crop/x_111,y_74,w_793,h_528/fill/w_607,h_398,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/IMG-20211019-WA0069.jpg");
+}
+
+#sedeSanFernando {
+  background-image: url("https://static.wixstatic.com/media/65c589_24d33a19903c445c969f4fc3939d52ba~mv2.jpg/v1/fill/w_607,h_398,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/DSC_6074.jpg");
+}
+
+#sedeTigre {
+  background-image: url("https://static.wixstatic.com/media/65c589_8d0184412e924303a93be83b16829795~mv2.jpg/v1/crop/x_154,y_18,w_1210,h_807/fill/w_607,h_398,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/IMG-20211101-WA0050.jpg");
+}
+
+#sedeSanBernardo {
+  background-image: url("https://static.wixstatic.com/media/65c589_a60d328d5274420cb1dc5457bf39d046~mv2.jpeg/v1/fill/w_607,h_398,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/WhatsApp%20Image%202022-08-05%20at%2010_01_02%20AM.jpeg");
 }

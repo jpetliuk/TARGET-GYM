@@ -1,7 +1,25 @@
 #navBarContainer {
   width: 100%;
-  position: fixed;
+  position: absolute;
   top: 0;
-  background-color: white;
+  background-color: transparent;
   color: #232323;
+  /* border-bottom: solid 1px #232323; */
+  /* display: flex; */
+  /* justify-content: space-between; */
 }
+
+.navBarLogo {
+  margin-top: 40px;
+  width: 150px;
+}
+/* 
+#navBarContainer ul {
+  display: flex;
+  list-style: none;
+  margin-right: 35px;
+}
+
+#navBarContainer ul li {
+  margin: auto 10px;
+} */
