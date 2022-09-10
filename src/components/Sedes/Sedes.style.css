@@ -65,7 +65,7 @@
 }
 
 .sedeBlock:hover .sedeStylesheetContent {
-  bottom: 18px;
+  bottom: 20px;
   opacity: 0;
 }
 
@@ -81,12 +81,14 @@
 .sedeStylesheetContent h2 {
   margin: 0;
   padding: 0;
+  width: 100%;
   font-size: 25px;
 }
 
 .sedeStylesheetContent p {
   margin: 0;
   padding: 0;
+  width: 100%;
   font-size: 15px;
 }
 
@@ -134,16 +136,29 @@
   scale: 1.015;
 }
 
-.sedesHover h2 {
-  margin: 0;
+.sedesHoverContent {
+  position: relative;
+  top: -35px;
+  transition: 300ms;
 }
 
-.sedesHover p {
+.sedesHover:hover .sedesHoverContent {
+  transition: 500ms;
+  top: 0;
+}
+
+.sedesHoverContent h2 {
+  margin: 0;
+  width: 100%;
+}
+
+.sedesHoverContent p {
   font-size: 18px;
+  width: 100%;
   margin: 0 auto 50px auto;
 }
 
-.sedesHover button {
+.sedesHoverContent button {
   background-color: transparent;
   border: solid 2px black;
   border-radius: 4px;
@@ -156,7 +171,7 @@
   cursor: pointer;
 }
 
-.sedesHover button:hover {
+.sedesHoverContent button:hover {
   background-color: black;
   color: white;
 }
@@ -167,7 +182,7 @@
 }
 
 .sedesMediaLinks a {
-  margin: 15px;
+  margin: 12px;
 }
 
 .sedesMediaLinks img {
