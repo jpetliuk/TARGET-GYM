@@ -13,7 +13,23 @@ const Sedes = () => {
       </p>
       <div className="sedesBlocksContainer">
         <div className="sedeBlock">
-          <div id="sedeFlorida" className="sedeStylesheet"></div>
+          <div id="sedeFlorida" className="sedeStylesheet">
+            <div className="sedeStylesheetContent">
+              <h2>FLORIDA</h2>
+              <p>Av. Gral. José de san martín 2462</p>
+              <div className="sedesMediaLinks">
+                <a href="/">
+                  <img src={whatsapp} alt="whatsapp" />
+                </a>
+                <a href="/">
+                  <img src={instagram} alt="instagram" />
+                </a>
+                <a href="/">
+                  <img src={facebook} alt="facebook" />
+                </a>
+              </div>
+            </div>
+          </div>
           <div className="sedesHover">
             <h2>FLORIDA</h2>
             <p>Av. Gral. José de san martín 2462</p>
@@ -32,7 +48,23 @@ const Sedes = () => {
           </div>
         </div>
         <div className="sedeBlock">
-          <div id="sedeMaipu" className="sedeStylesheet"></div>
+          <div id="sedeMaipu" className="sedeStylesheet">
+            <div className="sedeStylesheetContent">
+              <h2>FLORIDA</h2>
+              <p>Av. Gral. José de san martín 2462</p>
+              <div className="sedesMediaLinks">
+                <a href="/">
+                  <img src={whatsapp} alt="whatsapp" />
+                </a>
+                <a href="/">
+                  <img src={instagram} alt="instagram" />
+                </a>
+                <a href="/">
+                  <img src={facebook} alt="facebook" />
+                </a>
+              </div>
+            </div>
+          </div>
           <div className="sedesHover">
             <h2>FLORIDA</h2>
             <p>Av. Gral. José de san martín 2462</p>
@@ -51,7 +83,23 @@ const Sedes = () => {
           </div>
         </div>
         <div className="sedeBlock">
-          <div id="sedeNunez" className="sedeStylesheet"></div>
+          <div id="sedeNunez" className="sedeStylesheet">
+            <div className="sedeStylesheetContent">
+              <h2>FLORIDA</h2>
+              <p>Av. Gral. José de san martín 2462</p>
+              <div className="sedesMediaLinks">
+                <a href="/">
+                  <img src={whatsapp} alt="whatsapp" />
+                </a>
+                <a href="/">
+                  <img src={instagram} alt="instagram" />
+                </a>
+                <a href="/">
+                  <img src={facebook} alt="facebook" />
+                </a>
+              </div>
+            </div>
+          </div>
           <div className="sedesHover">
             <h2>FLORIDA</h2>
             <p>Av. Gral. José de san martín 2462</p>
@@ -70,7 +118,23 @@ const Sedes = () => {
           </div>
         </div>
         <div className="sedeBlock">
-          <div id="sedeSanFernando" className="sedeStylesheet"></div>
+          <div id="sedeSanFernando" className="sedeStylesheet">
+            <div className="sedeStylesheetContent">
+              <h2>FLORIDA</h2>
+              <p>Av. Gral. José de san martín 2462</p>
+              <div className="sedesMediaLinks">
+                <a href="/">
+                  <img src={whatsapp} alt="whatsapp" />
+                </a>
+                <a href="/">
+                  <img src={instagram} alt="instagram" />
+                </a>
+                <a href="/">
+                  <img src={facebook} alt="facebook" />
+                </a>
+              </div>
+            </div>
+          </div>
           <div className="sedesHover">
             <h2>FLORIDA</h2>
             <p>Av. Gral. José de san martín 2462</p>
@@ -89,7 +153,23 @@ const Sedes = () => {
           </div>
         </div>
         <div className="sedeBlock">
-          <div id="sedeTigre" className="sedeStylesheet"></div>
+          <div id="sedeTigre" className="sedeStylesheet">
+            <div className="sedeStylesheetContent">
+              <h2>FLORIDA</h2>
+              <p>Av. Gral. José de san martín 2462</p>
+              <div className="sedesMediaLinks">
+                <a href="/">
+                  <img src={whatsapp} alt="whatsapp" />
+                </a>
+                <a href="/">
+                  <img src={instagram} alt="instagram" />
+                </a>
+                <a href="/">
+                  <img src={facebook} alt="facebook" />
+                </a>
+              </div>
+            </div>
+          </div>
           <div className="sedesHover">
             <h2>FLORIDA</h2>
             <p>Av. Gral. José de san martín 2462</p>
@@ -108,7 +188,23 @@ const Sedes = () => {
           </div>
         </div>
         <div className="sedeBlock">
-          <div id="sedeSanBernardo" className="sedeStylesheet"></div>
+          <div id="sedeSanBernardo" className="sedeStylesheet">
+            <div className="sedeStylesheetContent">
+              <h2>FLORIDA</h2>
+              <p>Av. Gral. José de san martín 2462</p>
+              <div className="sedesMediaLinks">
+                <a href="/">
+                  <img src={whatsapp} alt="whatsapp" />
+                </a>
+                <a href="/">
+                  <img src={instagram} alt="instagram" />
+                </a>
+                <a href="/">
+                  <img src={facebook} alt="facebook" />
+                </a>
+              </div>
+            </div>
+          </div>
           <div className="sedesHover">
             <h2>FLORIDA</h2>
             <p>Av. Gral. José de san martín 2462</p>

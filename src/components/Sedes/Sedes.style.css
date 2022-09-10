@@ -31,27 +31,89 @@
   transition: 400ms;
 }
 
+/* stylesheet */
 .sedeStylesheet {
   width: 100%;
   height: 100%;
-  border-radius: 5px;
-  background-color: lightgray;
+  border-radius: 15px;
+  background-color: white;
   background-repeat: no-repeat;
-  background-size: contain;
-  transition: 300ms;
+  background-size: 100% 230px;
+  transition: 500ms;
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.4);
 }
 
 .sedeBlock:hover .sedeStylesheet {
   filter: blur(2px);
   -webkit-filter: blur(2px);
-  opacity: 50%;
-  box-shadow: 5px 10px #888888;
+  opacity: 10%;
   border-radius: 0;
 }
 
+.sedeStylesheetContent {
+  position: absolute;
+  width: 100%;
+  height: 120px;
+  bottom: 0;
+  border-radius: 0 0 15px 15px;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  align-content: flex-start;
+  justify-content: center;
+  transition: 1s;
+}
+
+.sedeBlock:hover .sedeStylesheetContent {
+  bottom: 18px;
+  opacity: 0;
+}
+
+/* .sedeStylesheetContent .sedesMediaLinks {
+  position: absolute;
+  transition: 1s;
+}
+
+.sedeBlock:hover .sedeStylesheetContent .sedesMediaLinks {
+  bottom: -30px;
+} */
+
+.sedeStylesheetContent h2 {
+  margin: 0;
+  padding: 0;
+  font-size: 25px;
+}
+
+.sedeStylesheetContent p {
+  margin: 0;
+  padding: 0;
+  font-size: 15px;
+}
+
+.sedeStylesheetContent button {
+  background-color: transparent;
+  border: solid 2px black;
+  border-radius: 4px;
+  padding: 10px 40px;
+  color: black;
+  font-family: "Montserrat", sans-serif;
+  font-size: 11px;
+  font-weight: 700;
+  transition: 200ms ease-in-out;
+  cursor: pointer;
+  position: absolute;
+  bottom: 0;
+}
+
+.sedeStylesheetContent button:hover {
+  background-color: black;
+  color: white;
+}
+
+/* hover */
 .sedesHover {
-  width: 350px;
-  height: 350px;
+  width: 100%;
+  height: 100%;
   position: absolute;
   top: 0;
   left: 0;
@@ -113,6 +175,7 @@
   width: 26px;
 }
 
+/* provisorio sede images */
 #sedeFlorida {
   background-image: url("https://static.wixstatic.com/media/65c589_98ff31452d6f4176a35ca2f54e59276a~mv2.jpg/v1/fill/w_607,h_398,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/DSC_5873_JPG.jpg");
 }
