@@ -39,7 +39,7 @@
   background-color: white;
   background-repeat: no-repeat;
   background-size: 100% 230px;
-  transition: 500ms;
+  transition: 650ms;
   box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.4);
 }
 
@@ -68,15 +68,6 @@
   bottom: 20px;
   opacity: 0;
 }
-
-/* .sedeStylesheetContent .sedesMediaLinks {
-  position: absolute;
-  transition: 1s;
-}
-
-.sedeBlock:hover .sedeStylesheetContent .sedesMediaLinks {
-  bottom: -30px;
-} */
 
 .sedeStylesheetContent h2 {
   margin: 0;

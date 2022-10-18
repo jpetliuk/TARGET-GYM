@@ -1,20 +1,84 @@
 #footerContainer {
   width: 100%;
-  height: 25vh;
-  display: grid;
-  grid-template-rows: 20vh 5vh;
-  grid-template-areas:
-    "icon-media"
-    "copyright";
+  height: 30vh;
   border-top: solid 1px gray;
   background-color: #232323;
+  position: relative;
+  text-align: center;
+  color: white;
+  font-size: calc(10px + 2vmin);
+}
+
+.footerText p {
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  margin: 18px auto 0 auto;
+}
+
+.footerText hr {
+  width: 300px;
+  margin: 0 auto 15px auto;
+}
+
+.footerMediaLinks {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}
+
+.footerMediaLinkContainer {
+  position: relative;
+  margin: auto 40px;
+  width: 30px;
+  height: 30px;
+}
+
+.footerMediaLinksBackgroundEffect {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  z-index: 5;
+  border-radius: 100%;
+  background-color: #141414;
+  transition: 350ms ease-in-out;
+}
+
+.footerMediaLinkContainer:hover .footerMediaLinksBackgroundEffect {
+  transform: scale(65);
+}
+
+.footerMediaLinkContainer img {
+  position: relative;
+  width: 30px;
+  z-index: 10;
+  transition: 350ms ease-out;
+  -webkit-filter: invert(100%);
+  filter: invert(100%);
+}
+
+.footerMediaLinkContainer:hover a img {
+  transform: scale(1.2);
 }
 
 .footerCopyright {
-  grid-area: copyright;
+  width: 100%;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
-  padding: 0 2% 0 2%;
-  font-size: 0.55rem;
+  position: absolute;
+  bottom: 0;
+}
+
+.footerCopyright span {
   font-family: sans-serif;
+  padding: 0 2% 8px 2%;
+  font-size: 0.55rem;
 }

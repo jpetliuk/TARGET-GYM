@@ -1,19 +1,17 @@
-import "./App.css";
-import Banner from "./components/Banner/Banner";
-import Mision from "./components/Mision/Mision";
-import Sedes from "./components/Sedes/Sedes";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from "./pages/Home";
+import Sede from "./pages/Sede/Sede";
 import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <Banner />
-        <Mision />
-        <Sedes />
-        <Footer />
-      </header>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />}></Route>
+        <Route path="sedes/:id" element={<Sede />}></Route>
+      </Routes>
+      <Footer />
+    </BrowserRouter>
   );
 }
 

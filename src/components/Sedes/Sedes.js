@@ -1,4 +1,5 @@
 import "./Sedes.style.css";
+import { Link } from "react-router-dom";
 import instagram from "../../assets/img/icons/instagram.png";
 import facebook from "../../assets/img/icons/facebook.png";
 import whatsapp from "../../assets/img/icons/whatsapp.png";
@@ -38,7 +39,9 @@ const Sedes = () => {
             <div className="sedesHoverContent">
               <h2>FLORIDA</h2>
               <p>Av. Gral. José de san martín 2462</p>
-              <button>CONOCER</button>
+              <Link to={"/sedes/florida"}>
+                <button>CONOCER</button>
+              </Link>
               <div className="sedesMediaLinks">
                 <a href="/">
                   <img src={whatsapp} alt="whatsapp" />
@@ -81,7 +84,9 @@ const Sedes = () => {
             <div className="sedesHoverContent">
               <h2>MAIPU</h2>
               <p>Av. Maipú 574</p>
-              <button>CONOCER</button>
+              <Link to={"/sedes/maipu"}>
+                <button>CONOCER</button>
+              </Link>
               <div className="sedesMediaLinks">
                 <a href="/">
                   <img src={whatsapp} alt="whatsapp" />
@@ -124,7 +129,9 @@ const Sedes = () => {
             <div className="sedesHoverContent">
               <h2>NUÑEZ</h2>
               <p>Av. Cabildo 3030</p>
-              <button>CONOCER</button>
+              <Link to={"/sedes/nuñez"}>
+                <button>CONOCER</button>
+              </Link>
               <div className="sedesMediaLinks">
                 <a href="/">
                   <img src={whatsapp} alt="whatsapp" />
@@ -167,7 +174,9 @@ const Sedes = () => {
             <div className="sedesHoverContent">
               <h2>SAN FERNANDO</h2>
               <p>Av. Constitución 1635</p>
-              <button>CONOCER</button>
+              <Link to={"/sedes/san-fernando"}>
+                <button>CONOCER</button>
+              </Link>
               <div className="sedesMediaLinks">
                 <a href="/">
                   <img src={whatsapp} alt="whatsapp" />
@@ -210,7 +219,9 @@ const Sedes = () => {
             <div className="sedesHoverContent">
               <h2>TIGRE</h2>
               <p>Av. Cazón 749</p>
-              <button>CONOCER</button>
+              <Link to={"/sedes/tigre"}>
+                <button>CONOCER</button>
+              </Link>
               <div className="sedesMediaLinks">
                 <a href="/">
                   <img src={whatsapp} alt="whatsapp" />
@@ -253,7 +264,9 @@ const Sedes = () => {
             <div className="sedesHoverContent">
               <h2>SAN BERNARDO</h2>
               <p>Av. San Bernardo 866</p>
-              <button>CONOCER</button>
+              <Link to={"/sedes/san-bernardo"}>
+                <button>CONOCER</button>
+              </Link>
               <div className="sedesMediaLinks">
                 <a href="/">
                   <img src={whatsapp} alt="whatsapp" />

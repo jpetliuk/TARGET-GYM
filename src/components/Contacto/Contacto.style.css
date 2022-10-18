@@ -1,0 +1,37 @@
+#ContactoContainer {
+  background-color: white;
+  width: 100%;
+}
+
+.ContactoText {
+  color: black;
+}
+
+.ContactoForm {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+}
+
+.ContactoFormEmailName {
+  margin: 8px 14px;
+  width: 450px;
+  padding: 18px 25px;
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  background-color: transparent;
+  border: 1px solid #d1d1d1;
+}
+
+.ContactoFormMessage {
+  margin-top: 8px;
+  max-width: 980px;
+  width: 100%;
+  padding: 18px 25px;
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  background-color: transparent;
+  border: 1px solid #d1d1d1;
+}
