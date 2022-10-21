@@ -1,0 +1,24 @@
+.modalWhiteScreen {
+  background-color: white;
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  z-index: 10000;
+  animation: modalWhite 750ms forwards;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+@keyframes modalWhite {
+  0% {
+    opacity: 1;
+  }
+  40% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    display: none;
+  }
+}
