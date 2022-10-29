@@ -1,4 +1,4 @@
-import "./Mision.style.css";
+import "./Mision.css";
 
 const Mision = () => {
   return (

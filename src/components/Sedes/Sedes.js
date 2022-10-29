@@ -1,4 +1,4 @@
-import "./Sedes.style.css";
+import "./Sedes.css";
 import { Link } from "react-router-dom";
 import instagram from "../../assets/img/icons/instagram.png";
 import facebook from "../../assets/img/icons/facebook.png";

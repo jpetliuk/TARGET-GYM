@@ -1,6 +1,8 @@
 import { Link } from "react-router-dom";
 import "./SedeInformation.css";
 import ModalTransition from "../../components/ModalTransition/ModalTransition";
+import clock from "../../assets/img/icons/clock-1.png";
+import SedeMaps from "./SedeMaps";
 
 const SedeInformation = ({ sede }) => {
   return (
@@ -17,19 +19,30 @@ const SedeInformation = ({ sede }) => {
             <button>VOLVER</button>
           </Link>
         </div>
-        <div className="sedeHorarios">
-          <div>
-            <h2>LUNES A VIERNES</h2>
-            <h3>07:00 a 22:00 hrs.</h3>
+        <div className="sedeInformacion">
+          <div className="sedeHorarios">
+            <div>
+              <img src={clock} alt="clock" className="sedeHorarios-clock" />
+              <h2>LUNES A VIERNES</h2>
+              <h3>07:00 a 22:00 hrs.</h3>
+            </div>
+            <div>
+              <img src={clock} alt="clock" className="sedeHorarios-clock" />
+              <h2>SABADOS</h2>
+              <h3>08:00 a 20:00 hrs.</h3>
+            </div>
+            <div>
+              <img src={clock} alt="clock" className="sedeHorarios-clock" />
+              <h2>FERIADOS</h2>
+              <h3>10:00 a 18:00 hrs.</h3>
+            </div>
           </div>
-          <div>
-            <h2>SABADOS</h2>
-            <h3>08:00 a 20:00 hrs.</h3>
+          <div className="sedeMedia">
+            <h2 className="sedeMediaTel">
+              Telefono:<span> 011 1234-5678</span>
+            </h2>
           </div>
-          <div>
-            <h2>FERIADOS</h2>
-            <h3>10:00 a 18:00 hrs.</h3>
-          </div>
+          <SedeMaps gmaps_src={sede.src} />
         </div>
       </div>
     </>

@@ -9,6 +9,7 @@ export const Data = [
     ig: "link",
     fb: "link",
     maps: "link",
+    src: "https://maps.google.com/maps?q=Target%20GYM,%20DFO,%20Gral.%20Jos%C3%A9%20de%20San%20Mart%C3%ADn%202462,%20B1602%20Florida,%20Provincia%20de%20Buenos%20Aires&t=&z=15&ie=UTF8&iwloc=&output=embed",
   },
   {
     id: "maipu",
@@ -20,6 +21,7 @@ export const Data = [
     ig: "link",
     fb: "link",
     maps: "link",
+    src: "https://maps.google.com/maps?q=Centro%20de%20Entrenamiento%20Target,%20Avenida%20Maip%C3%BA,%20Florida,%20Provincia%20de%20Buenos%20Aires&t=&z=15&ie=UTF8&iwloc=&output=embed",
   },
   {
     id: "nuñez",
@@ -31,6 +33,7 @@ export const Data = [
     ig: "link",
     fb: "link",
     maps: "link",
+    src: "https://maps.google.com/maps?q=Target%20Gym%20Nu%C3%B1ez,%20Avenida%20Cabildo,%20Buenos%20Aires&t=&z=15&ie=UTF8&iwloc=&output=embed",
   },
   {
     id: "san-fernando",
@@ -42,6 +45,7 @@ export const Data = [
     ig: "link",
     fb: "link",
     maps: "link",
+    src: "https://maps.google.com/maps?q=Target%20Gym%20San%20Fernando,%20CYG,%20Constituci%C3%B3n,%20San%20Fernando,%20Provincia%20de%20Buenos%20Aires&t=&z=15&ie=UTF8&iwloc=&output=embed",
   },
   {
     id: "tigre",
@@ -53,6 +57,7 @@ export const Data = [
     ig: "link",
     fb: "link",
     maps: "link",
+    src: "https://maps.google.com/maps?q=Target%20Gym%20Tigre,%20Avenida%20Caz%C3%B3n,%20Tigre,%20Provincia%20de%20Buenos%20Aires&t=&z=15&ie=UTF8&iwloc=&output=embed",
   },
   {
     id: "san-bernardo",
@@ -64,5 +69,6 @@ export const Data = [
     ig: "link",
     fb: "link",
     maps: "link",
+    src: "https://maps.google.com/maps?q=Target%20gym,%20Avenida%20San%20Bernardo,%20San%20Bernardo,%20Provincia%20de%20Buenos%20Aires&t=&z=15&ie=UTF8&iwloc=&output=embed",
   },
 ];
