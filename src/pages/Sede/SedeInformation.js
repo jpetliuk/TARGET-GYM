@@ -11,15 +11,18 @@ const SedeInformation = ({ sede }) => {
       <div className="sedeInformationContainer">
         <div
           className="sedeInformationBanner"
-          style={{ backgroundImage: `url(${sede.image})` }}
+          style={{
+            backgroundImage: `url(${sede.image})`,
+          }}
         >
           <h1 className="sedeTitle">sede {sede.title}</h1>
           <h4 className="sedeSubtitle">{sede.location}</h4>
-          <Link to={"/"}>
+          <Link to={"/"} className="sedeReturn">
             <button>VOLVER</button>
           </Link>
         </div>
         <div className="sedeInformacion">
+          <h2>NUESTROS HORARIOS</h2>
           <div className="sedeHorarios">
             <div>
               <img src={clock} alt="clock" className="sedeHorarios-clock" />
@@ -37,12 +40,20 @@ const SedeInformation = ({ sede }) => {
               <h3>10:00 a 18:00 hrs.</h3>
             </div>
           </div>
-          <div className="sedeMedia">
-            <h2 className="sedeMediaTel">
-              Telefono:<span> 011 1234-5678</span>
+          <SedeMaps gmaps_src={sede.src} />
+
+          <div className="sedeContact">
+            <h2 className="sedeContactTitle">CONTACTATE CON NOSOTROS</h2>
+            <p className="sedeContactSubtitle">
+              Envianos un mensaje o un mail.
+            </p>
+            <h2 className="sedeContactTel">
+              Telefono:<span> {sede.phone}</span>
+            </h2>
+            <h2 className="sedeContactTel">
+              Mail:<span> mail@gmail.com</span>
             </h2>
           </div>
-          <SedeMaps gmaps_src={sede.src} />
         </div>
       </div>
     </>

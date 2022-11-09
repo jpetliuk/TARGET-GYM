@@ -1,3 +1,7 @@
+.sedeInformationContainer {
+  text-align: center;
+}
+
 .sedeTitle {
   font-size: 4rem;
   color: #f26c0c;
@@ -9,10 +13,6 @@
   color: aliceblue;
   margin: 20px 0 80px 0;
   font-size: 1.5rem;
-}
-
-.sedeInformationContainer {
-  text-align: center;
 }
 
 .sedeInformationBanner {
@@ -60,8 +60,13 @@
   }
 }
 
+.sedeReturn {
+  width: 118px;
+  margin: auto;
+}
+
 .sedeInformacion {
-  height: 80vh;
+  text-align: center;
 }
 
 .sedeHorarios {
@@ -89,11 +94,26 @@
   margin-top: 20px;
 }
 
-.sedeMediaTel {
+.sedeContact {
+  margin: 50px auto;
+}
+
+.sedeContactTitle {
+  margin: 0;
+}
+
+.sedeContactSubtitle {
+  margin: 10px auto 25px auto;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  color: gray;
+}
+
+.sedeContactTel {
   font-size: 1rem;
 }
 
-.sedeMediaTel span {
+.sedeContactTel span {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   color: #f26c0c;
