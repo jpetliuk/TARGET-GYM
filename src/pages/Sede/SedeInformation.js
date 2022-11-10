@@ -15,15 +15,19 @@ const SedeInformation = ({ sede }) => {
             backgroundImage: `url(${sede.image})`,
           }}
         >
-          <h1 className="sedeTitle">sede {sede.title}</h1>
-          <h4 className="sedeSubtitle">{sede.location}</h4>
-          <Link to={"/"} className="sedeReturn">
+          <h1 className="sedeTitle" data-aos="fade-in">
+            sede {sede.title}
+          </h1>
+          <h4 className="sedeSubtitle" data-aos="fade-in">
+            {sede.location}
+          </h4>
+          <Link to={"/"} className="sedeReturn" data-aos="fade-in">
             <button>VOLVER</button>
           </Link>
         </div>
         <div className="sedeInformacion">
-          <h2>NUESTROS HORARIOS</h2>
-          <div className="sedeHorarios">
+          <h2 data-aos="fade-up">NUESTROS HORARIOS</h2>
+          <div className="sedeHorarios" data-aos="fade-in">
             <div>
               <img src={clock} alt="clock" className="sedeHorarios-clock" />
               <h2>LUNES A VIERNES</h2>
@@ -40,9 +44,9 @@ const SedeInformation = ({ sede }) => {
               <h3>10:00 a 18:00 hrs.</h3>
             </div>
           </div>
-          <SedeMaps gmaps_src={sede.src} />
+          <SedeMaps gmaps_src={sede.src} data-aos="fade-in" />
 
-          <div className="sedeContact">
+          <div className="sedeContact" data-aos="fade-in">
             <h2 className="sedeContactTitle">CONTACTATE CON NOSOTROS</h2>
             <p className="sedeContactSubtitle">
               Envianos un mensaje o un mail.

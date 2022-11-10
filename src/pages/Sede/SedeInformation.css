@@ -3,7 +3,7 @@
 }
 
 .sedeTitle {
-  font-size: 4rem;
+  font-size: 3.5rem;
   color: #f26c0c;
   text-transform: uppercase;
   margin: 0;
@@ -12,12 +12,12 @@
 .sedeSubtitle {
   color: aliceblue;
   margin: 20px 0 80px 0;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
 }
 
 .sedeInformationBanner {
   text-align: center;
-  height: 90vh;
+  height: 85vh;
   display: grid;
   justify-content: center;
   align-content: center;
@@ -48,15 +48,15 @@
 
 @keyframes background-zoom {
   from {
-    background-size: 100%;
+    background-size: 100% 100%;
   }
 
   50% {
-    background-size: 105%;
+    background-size: 105% 105%;
   }
 
   to {
-    background-size: 100%;
+    background-size: 100% 100%;
   }
 }
 
@@ -67,11 +67,13 @@
 
 .sedeInformacion {
   text-align: center;
+  margin-top: 50px;
 }
 
 .sedeHorarios {
   display: flex;
   justify-content: center;
+  margin-bottom: 50px;
 }
 
 .sedeHorarios div {

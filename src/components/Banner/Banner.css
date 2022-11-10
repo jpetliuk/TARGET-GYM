@@ -18,8 +18,9 @@
 }
 
 .bannerTitle {
-  width: 100%;
+  width: 90%;
   font-family: "Poppins", sans-serif;
+  margin: auto;
 }
 
 .bannerTitle p {

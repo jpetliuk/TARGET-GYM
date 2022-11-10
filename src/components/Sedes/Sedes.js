@@ -7,24 +7,26 @@ import maps from "../../assets/img/icons/maps-and-flags.png";
 import { Data } from "../../Data";
 
 const Sedes = () => {
-  const navigate = useNavigate();
+  // const navigate = useNavigate();
 
   return (
     <div id="sedesContainer">
-      <h2 className="sedesTitle">NUESTRAS SEDES</h2>
-      <p className="sedesSubtitle">
+      <h2 className="sedesTitle" data-aos="fade-up">
+        NUESTRAS SEDES
+      </h2>
+      <p className="sedesSubtitle" data-aos="fade-up">
         Explorá y encontrá la sede que mas cómoda te quede y comenzá a entrenar
         con nosotros ahora.
       </p>
       <div className="sedesBlocksContainer">
         {Data.map((item) => (
-          <div className="sedeBlock" key={item.id}>
+          <div className="sedeBlock" data-aos="fade-up" key={item.id}>
             <div
               className="sedeStylesheet"
               style={{
                 backgroundImage: `url(${item.image})`,
               }}
-              onClick={() => navigate(`/sedes/${item.id}`)}
+              // onClick={() => navigate(`/sedes/${item.id}`)}
             >
               <p className="sedeConocer">conocer</p>
               <div className="sedeStylesheetContent">
