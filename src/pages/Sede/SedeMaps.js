@@ -7,6 +7,7 @@ const SedeMaps = ({ gmaps_src }) => {
       src={gmaps_src}
       frameBorder="0"
       scrolling="no"
+      title="location"
     ></iframe>
   );
 };
