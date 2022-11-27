@@ -1,5 +1,5 @@
 import "./Sedes.css";
-import { Link, useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 import instagram from "../../assets/img/icons/instagram.png";
 import facebook from "../../assets/img/icons/facebook.png";
 import whatsapp from "../../assets/img/icons/whatsapp.png";

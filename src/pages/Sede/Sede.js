@@ -8,15 +8,11 @@ const Sede = () => {
   const { id } = useParams();
   const [sede, setSede] = useState();
 
-  const getSede = () => {
+  useEffect(() => {
     function findSede(sede) {
       return sede.id === id;
     }
     setSede(Data.find(findSede));
-  };
-
-  useEffect(() => {
-    getSede();
   }, [id]);
 
   return (
